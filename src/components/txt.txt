@@ -1,0 +1,7 @@
+${isLarge ? 'h-96' : 'h-60'}
+
+ onMouseEnter={() => setIsLarge(true)}
+       onMouseLeave={() => setIsLarge(false)}
+
+
+         const [isLarge, setIsLarge] = useState(true)
