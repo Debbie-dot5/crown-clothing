@@ -1,6 +1,5 @@
 import React from 'react'
-import CategoryItem from "./components/category-item"
-
+import CategoryItem from './category-item'
 
 const Directory = ({ categories}) => {
   return (
